@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="icon" type="image/x-icon" href="VVIT_logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="VVIT_logo.svg" alt="logo" width="50"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="Login_page.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="Login_page.html">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="SignUp.html">SignUp</a></li>
+                <li class="nav-item"><a class="nav-link" href="chat-bot.html">FAQ</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Login Form -->
+<div class="container mt-5 pt-5">
+    <div class="row justify-content-center">
+        <!-- Desktop View -->
+        <div class="col-lg-6 d-none d-lg-block">
+            <img src="Login-pan.svg" alt="Login illustration" class="img-fluid">
+        </div>
+
+        <!-- Form -->
+        <div class="col-lg-6 col-md-8">
+            <div class="card shadow-lg p-4">
+                <h4 class="text-center">Login</h4>
+                <p class="text-center">Please Enter Valid Email address</p>
+                <form>
+                    <div class="mb-3 ">
+                        <label for="InputEmail" class="form-label "> </label>
+                        <input type="email" class="form-control" id="InputEmail" placeholder="Email address" required>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputPassword" class="form-label">  </label>
+                        <input type="password" class="form-control" id="InputPassword" placeholder="Password" required>
+
+                    </div>
+                    <div class="mb-2">
+                        <a href="ForgotPassword.html">Forgot Password?</a>
+                    </div>
+                    <div class="mb-2">
+                        <p>New here? <a href="SignUp.html">Sign Up</a></p>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-40" onclick="location.href='index.html'">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+select:focus {
+    outline: none;
+}
+
+
+.back1{
+    background-color: #F69074;
+    background-image: linear-gradient(315deg, #F69074 0%, #f69074 74%);
+    margin: 10px;
+}
+body {
+    font-family: 'Exo', sans-serif;
+    background-color: aliceblue;
+}
+
+.back1 {
+    background-color: #F69074;
+    background-image: linear-gradient(315deg, #F69074 0%, #f69074 74%);
+    margin: 10px;
+}
+
+textarea:focus, select:focus {
+    outline: none;
+    border-color: #f69074;
+    box-shadow: 0 0 10px rgba(246, 144, 116, 0.5);
+}
+
+/* Navbar styles **************************/
+.navbar-brand img {
+    max-width: 80px;
+    height: auto;
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar img {
+    width: 30px;
+    height: 30px;
+}
+/* Navbar styles **************************/

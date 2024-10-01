@@ -1,0 +1,229 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+
+p{
+   font-family:"Bodoni MT Poster Compressed","sans-serif";
+    color:black;
+    font-size:20px;
+}
+/* Glassmorphism card effect */
+.card {
+
+
+    background-color:  rgba( 255,255,255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255,255,255, 0.2);
+
+
+
+}
+.card img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+}
+label{
+    display: block;
+    width:200px;
+    padding:12px;
+    margin:10px auto;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+.labels{
+    background: rgb(255,232,232);
+    background: linear-gradient(90deg, rgba(255,232,232,1) 0%, rgba(246,144,116,1) 29%);    color:#ffffff;
+}
+.input{
+    display:none;
+}
+.forms label{
+    display: block;
+    color:black;
+    background-color: #ffffff;
+
+}
+.forms input{
+    display: block;
+    background-color: #e5e5f7;
+    border-color:transparent;
+    margin:10px;
+
+}
+.para{
+    font-family: "Microsoft YaHei UI Light","sans-serif";
+}
+
+input{
+    border-radius: 50%10%50%10%/10%50%10%50%;
+
+}
+label{
+    border-radius: 50%10%50%10%/10%50%10%50%;
+
+}
+
+
+
+body{
+    background-color: aliceblue;
+}
+.card1{
+    background-color: transparent;
+}
+.back1{
+    background-color: #F69074;
+    background-image: linear-gradient(315deg, #F69074 0%, #f69074 74%);
+    margin: 10px;
+}
+
+.card_li{
+    list-style-type: none;
+
+}
+.mark{
+    margin: 10px;
+    border-radius: 50%10%50%10%/10%50%10%50%;
+}
+/* Navbar styles */
+.navbar-brand img {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar img {
+    width: 30px;
+    height: 30px;
+}
+/* General mobile responsiveness */
+@media (max-width: 576px) {
+    /* Navbar */
+    .navbar-brand img {
+        max-width: 30px;
+    }
+
+    /* Sidebar */
+    .nav-pills .nav-link {
+        padding: 0.5rem 0.2rem;
+    }
+    .sidebar img {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Cards */
+    .card img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    /* Dashboard text */
+    h4, .fs-6, p {
+        font-size: 14px;
+    }
+
+    /* Profile section */
+    #profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .labels {
+        width: 100px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    /* Table scaling */
+    table.table {
+        font-size: 12px;
+    }
+    .progress-bar {
+        height: 20px;
+        font-size: 10px;
+    }
+}
+
+/* Tablet responsiveness */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Cards */
+    .card img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    h4, .fs-6, p {
+        font-size: 16px;
+    }
+
+    /* Profile image */
+    #profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .labels {
+        width: 150px;
+        padding: 12px;
+    }
+
+    /* Adjust table size */
+    table.table {
+        font-size: 14px;
+    }
+    .progress-bar {
+        height: 24px;
+        font-size: 12px;
+    }
+}
+
+/* Additional styles for large screens */
+@media (min-width: 769px) {
+    /* Larger screen scaling */
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    /* Profile image and buttons */
+    #profile-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .labels {
+        width: 180px;
+        padding: 15px;
+    }
+}
+
+/* Example styles for mobile responsiveness */
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 20px; /* Add spacing between cards */
+    }
+}
+
+/* Additional styles can be added here */
+
+

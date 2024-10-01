@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD</title>
+    <link rel="stylesheet" href="Dashboard.css">
+    <link rel="icon" type="image/x-icon" href="VVIT_logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<!--- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="VVIT_logo.svg" alt="logo"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item back1">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item back1">
+                    <a class="nav-link" href="Login_page.html">Login</a>
+                </li>
+                <li class="nav-item back1">
+                    <a class="nav-link" href="SignUp.html">SignUp</a>
+                </li>
+                <li class="nav-item back1">
+                    <a class="nav-link" href="chat-bot.html">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Container -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-auto bg-light sticky-top">
+            <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top">
+                <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link py-3 px-2" title="DASHBOARD" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                            <img src="Dashboard_svg.svg" alt="Dashboard" width="30" height="24">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="PropertyLoss.html" class="nav-link py-3 px-2" title="PROPERTY_LOSS" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
+                            <img src="Property.svg" alt="Property" width="38" height="38">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="complaint.html" class="nav-link py-3 px-2" title="MY_COMPLAINT" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="MyComplaints">
+                            <img src="checklist.svg" alt="My_complaints" width="38" height="38">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="feed.html" class="nav-link py-3 px-2" title="FEEDBACK" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="FEEDBACK">
+                            <img src="feedbackicon.svg" alt="add_complaint" width="38" height="38">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat-bot.html" class="nav-link py-3 px-2" title="CHAT BOT" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="AddComplaint">
+                            <img src="chat-bot.svg" alt="chat bot" width="38" height="38">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Login_page.html" class="nav-link py-3 px-2" title="LOGOUT" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="AddComplaint">
+                            <img src="logout.svg" alt="add_complaint" width="38" height="38">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-sm p-3 min-vh-100">
+            <div class="container-fluid">
+                <div class="row bg-transparent">
+                    <div class="bg-transparent d-flex flex-column flex-lg-row justify-content-between">
+                        <div class="card bg-transparent col-12 col-lg-8 mb-4">
+                            <div class="card bg-transparent d-flex flex-row justify-content-center">
+                                <div class="para">
+                                    <h4 class="fs-6 fs-sm-5 fs-md-4"> Hi,<strong id="studentName">StudentName </strong>&#x1F44B;<br></h4>
+                                    <p class="fs-6 fs-sm-5 fs-md-4">Explore the dashboard for quick access <br>
+                                        essentials like filling complaints, requests <br>
+                                        knowing the number of complaints made.<br>
+                                        Need help? Contact our support team; we are here for you</p>
+                                </div>
+                                <div class="image_card">
+                                    <img src="Telecommuting-pana.svg" alt="image" width="auto">
+                                </div>
+                            </div>
+
+                            <div class="card1 mt-2">
+                                <mark class="mark btn-primary m-2" style="background-color: #0d6efd; color:#ffffff; font-weight:bold; font-family: Calibri,sans-serif">Status</mark>
+                                <p class="m-2">The query by the user that he initialized</p>
+
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>Query</th>
+                                        <th>Status</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>QUERY1</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Initialized</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>QUERY2</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Pending</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>QUERY3</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Completed</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- 2nd Container -->
+                        <div class="card bg-transparent shadow-sm col-12 col-lg-4">
+                            <div class="card-header text-center">
+                                <img src="profile.jpg" id="profile-image" alt="image_reload">
+                                <input class="input" type="file" accept="image/jpeg, image/png, image/jpg" id="input-file">
+                                <label for="input-file" class="labels">Upload Image</label>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h4 class="mb-0">StudentName</h4>
+                                        <p class="text-secondary">StudentName</p>
+                                        <p class="text-secondary">Email</p>
+                                        <p class="text-secondary">Department</p>
+                                        <p class="text-secondary">Year</p>
+                                        <p class="text-secondary">Section</p>
+                                        <p class="text-secondary">Roll No</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary" onclick="saveButton()">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Main -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let profile = document.getElementById("profile-image");
+    let imageFile = document.getElementById("input-file");
+    imageFile.onchange = function() {
+        profile.src = URL.createObjectURL(imageFile.files[0]);
+    }
+</script>
+
+</body>
+</html>

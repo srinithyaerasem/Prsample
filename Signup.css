@@ -1,0 +1,31 @@
+body {
+    overflow-x: hidden;
+    font-family: "Lucida Bright", Georgia, serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+label {
+    color: #555;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.button {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #F69074;
+    border-color: #F69074;
+}

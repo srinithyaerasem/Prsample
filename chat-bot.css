@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+
+
+
+body{
+    background-color: aliceblue;
+}
+
+.back1{
+    background-color: #F69074;
+    background-image: linear-gradient(315deg, #F69074 0%, #f69074 74%);
+    margin: 10px;
+}
+/* Navbar styles **************************/
+.navbar-brand img {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar img {
+    width: 30px;
+    height: 30px;
+}
+/* Navbar styles **************************/
+
+/* Chatbot styles */
+.chat-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat-header {
+    background: #F69074;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.chat-messages {
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    background: #f9f9f9;
+    flex-grow: 1;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    max-width: 80%;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.bot-message {
+    background-color: #e1f5fe;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+.user-message {
+    background-color: #c8e6c9;
+    align-self: flex-end;
+    margin-left: auto;
+    flex-direction: row-reverse;
+}
+
+.message-text {
+    margin: 0 10px;
+}
+
+.message img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #f1f1f1;
+    background: white;
+}
+
+.chat-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+}
+
+.chat-input button img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .chat-container {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .navbar-brand img {
+        max-width: 40px;
+    }
+
+    .chat-header h5 {
+        font-size: 18px;
+    }
+
+    .chat-messages {
+        height: 300px;
+    }
+
+    .sidebar img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .chat-input input {
+        font-size: 14px;
+    }
+
+    .chat-input button img {
+        width: 24px;
+        height: 24px;
+    }
+}
+

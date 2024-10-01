@@ -1,0 +1,133 @@
+
+.card{
+    background-color: transparent;
+}
+
+#result {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    height: 200px; /* Set a fixed height for the container */
+    overflow: hidden; /* Hide overflow */
+}
+
+.thumbnails {
+    max-width: 100%; /* Make images responsive */
+    max-height: 100%; /* Ensure images don't exceed the height of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+label {
+    margin: 10px;
+
+
+}
+body{
+    background-color: aliceblue;
+}
+input {
+    background-color: transparent;
+    border: none transparent;
+
+}
+.card{
+    background-color: #F6FBFF;
+}
+#imagefile {
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    border: none;
+    background-color: #FF725E;
+    border-radius: 5px;
+}
+
+#imagefile::file-selector-button {
+    color: white;
+    background-color: #FF725E;
+}
+input {
+    border: none;
+    outline: none; /* Remove the default focus outline (optional) */
+    width: 40%;
+}
+
+.back1{
+    background-color: #F69074;
+    background-image: linear-gradient(315deg, #F69074 0%, #f69074 74%);
+    margin: 10px;
+}
+
+
+
+
+
+.upload-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.upload-box {
+    border: 2px dashed #ddd;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.upload-box:hover {
+    border-color: #aaa;
+}
+
+input[type="file"] {
+    display: none;
+}
+.form{
+    display:none;
+}
+select{
+    border:none;
+    border-radius:5px;
+}
+
+select:focus{
+    outline:none;
+}
+textarea:focus{
+    outline:none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+/* Navbar styles **************************/
+.navbar-brand img {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar img {
+    width: 30px;
+    height: 30px;
+}
+/* Navbar styles **************************/
+
